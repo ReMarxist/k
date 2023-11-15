@@ -58,7 +58,7 @@ of a single production.
 The meaning of these priority groups becomes apparent when parsing programs:
 A symbol with a **lesser priority**, (i.e., one that **binds looser**), cannot
 appear as the **direct child** of a symbol with a **greater priority** (i.e.,
-one that **binds tighter**. In this case, the `>` operator can be seen as a
+one that **binds tighter**). In this case, the `>` operator can be seen as a
 **greater-than** operator describing a transitive partial ordering on the
 productions in the production block, expressing their relative priority.
 
